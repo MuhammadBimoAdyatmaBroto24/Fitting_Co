@@ -1,5 +1,0 @@
-        $product = App\Models\Product::where('slug',
-     'adidas-x-mercedes-t-shirt-f1-edition')->first();
-        echo $product->image;
-        echo "\n";
-        echo $product->images;
